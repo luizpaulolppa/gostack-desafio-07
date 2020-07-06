@@ -168,15 +168,12 @@ describe('Dashboard', () => {
     await actWait();
 
     expect(getByText('Loan')).toBeTruthy();
-    expect(getByText('R$ 1.500,00')).toBeTruthy();
     expect(getByText('Others')).toBeTruthy();
 
     expect(getByText('Computer')).toBeTruthy();
-    expect(getByText('R$ 4.500,00')).toBeTruthy();
     expect(getByText('Sell')).toBeTruthy();
 
     expect(getByText('Website Hosting')).toBeTruthy();
-    expect(getByText('- R$ 50,00')).toBeTruthy();
     expect(getByText('Hosting')).toBeTruthy();
   });
 

@@ -45,6 +45,8 @@ const Dashboard: React.FC = () => {
         })
       );
 
+      console.log(transactionsFormatted);
+
       const balanceFormatted = {
         income: formatValue(response.data.balance.income),
         outcome: formatValue(response.data.balance.outcome),
